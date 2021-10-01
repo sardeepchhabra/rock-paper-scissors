@@ -1,0 +1,57 @@
+body{
+    font-family: 'Are You Serious', cursive;
+    color: white;
+    background: black;
+}
+.header{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.1s, heigth 0.1s;
+
+}
+.button:hover{
+    box-shadow: 0 10px 50px white;
+    width: 205px;
+    height: 205px;
+    box-shadow: lavender;
+}
+.button img{
+    width: 150px;
+}
+.label{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    gap: 20px;
+}
+.score{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.score p{
+    margin: 0px
+    
+}
+.result{
+    text-align: center;
+    font-size: 50px;
+}
